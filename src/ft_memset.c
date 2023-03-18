@@ -10,8 +10,8 @@
 /*   Updated: 2023/03/16 18:50:45 by moeisa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <stdio.h>
+#include <stdio.h>
+#include "libft.h"
 
 int *ft_memset(void *s, int c, size_t n){
     
@@ -29,14 +29,13 @@ int *ft_memset(void *s, int c, size_t n){
 }
 
 
-// int main(void)  
-// {  
-//     char memory[8];  
-  
-//     /* Fill the memory block with null bytes */  
-//     ft_memset(memory, 'a', 8);  
-//     printf("%s  ", memory);  
+int main(void)  
+{  
+    char memory[8];  
+   
+    ft_memset(memory, 'a', 8);  
+    printf("%s  ", memory);  
 
   
-//     return (0);  
-// }  
+    return (0);  
+}  
