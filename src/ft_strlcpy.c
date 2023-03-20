@@ -6,7 +6,7 @@
 /*   By: moeisa <moeisa@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 12:38:36 by moeisa            #+#    #+#             */
-/*   Updated: 2023/03/20 12:40:34 by moeisa           ###   ########.fr       */
+/*   Updated: 2023/03/20 15:18:05 by moeisa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,5 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 	}
 	return (length);
 }
+
+
