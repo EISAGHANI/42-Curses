@@ -6,14 +6,14 @@
 /*   By: moeisa <moeisa@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 12:38:44 by moeisa            #+#    #+#             */
-/*   Updated: 2023/03/20 12:41:38 by moeisa           ###   ########.fr       */
+/*   Updated: 2023/04/14 00:28:20 by moeisa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 #include "libft.h"
 
-int	ft_strncmp(char *s1, char *s2, unsigned int n)
+int		ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	unsigned int	i;
 	unsigned int	result;

@@ -10,20 +10,11 @@
 /*   Updated: 2023/03/16 14:15:57 by moeisa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
-// #include <stdio.h>
 
 int ft_isdigit(int c){
     if ((c >= '0' && c <= '9'))
-        return (1);
-   
+        return (1);   
     return (0);
-
 }
-
-
-// int main(){
-//     printf("answer is: %d\n", ft_isdigit('1'));
-
-//     return 0;
-// }

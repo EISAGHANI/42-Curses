@@ -6,12 +6,11 @@
 /*   By: moeisa <moeisa@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 12:38:08 by moeisa            #+#    #+#             */
-/*   Updated: 2023/03/20 14:52:10 by moeisa           ###   ########.fr       */
+/*   Updated: 2023/04/14 00:32:10 by moeisa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

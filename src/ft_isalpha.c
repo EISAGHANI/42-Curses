@@ -10,20 +10,11 @@
 /*   Updated: 2023/03/16 14:55:29 by moeisa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
-// #include <stdio.h>
 
+#include "libft.h"
 
 int ft_isalpha(int c){
     if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
-        return (1);
-   
+        return (1);   
     return (0);
-
 }
-
-// int main(){
-//     printf("answer is: %d\n", ft_isalpha('h'));
-
-//     return 0;
-// }

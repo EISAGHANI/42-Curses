@@ -11,32 +11,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
 #include "libft.h"
 
-int *ft_memset(void *s, int c, size_t n){
-    
+void	*ft_memset(void *s, int c, size_t n)
+{    
     size_t i=0;
     while (i < n)
     {
         ((unsigned char *)s)[i] = c;
          i++;
-    }
-    
-       
-    
-
+    }    
     return (s);
 }
-
-
-// int main(void)  
-// {  
-//     char memory[8];  
-   
-//     ft_memset(memory, 'a', 8);  
-//     printf("%s  ", memory);  
-
-  
-//     return (0);  
-// }  

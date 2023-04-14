@@ -6,14 +6,11 @@
 /*   By: moeisa <moeisa@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/18 18:43:59 by moeisa            #+#    #+#             */
-/*   Updated: 2023/03/20 15:44:57 by moeisa           ###   ########.fr       */
+/*   Updated: 2023/04/13 22:55:09 by moeisa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <unistd.h>
-// #include <stdlib.h>
-// #include <stdio.h>
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
@@ -25,11 +22,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		*d++ = *s++;
 	return (dest);
 }
-
-// int main() {
-//    char src[] = "";
-//    char dest[15];
-//    ft_memcpy(dest, src, 2);
-//    printf("The string copied to dest is: %s\n", dest);
-//    return 0;
-// }
