@@ -1,44 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: moeisa <moeisa@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/20 12:38:56 by moeisa            #+#    #+#             */
-/*   Updated: 2023/03/25 21:10:01 by moeisa           ###   ########.fr       */
+/*   Created: 2023/03/28 01:39:53 by moeisa            #+#    #+#             */
+/*   Updated: 2023/03/28 01:57:56 by moeisa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "libft.h"
-#include <stdio.h>
-#include <string.h>
 
-char	*ft_strrchr(const char *str, int c)
+void ft_putnbr_fd(int n, int fd)
 {
-	int	index;
+	int	add;
 
-	index = (int) ft_strlen(str);
-	while (index >= 0)
+	add = 0;
+	if (n < 0)
 	{
-		if (str[index] == (unsigned char) c)
+		ft_putchar_fd('-', fd);
+		if (n == -2147483648)
 		{
-			return ((char *)str + index);
+			add = 1;
+			n++;
 		}
-		index--;
+		n = -n;
 	}
-	return (NULL);
-}
-
-
-int main() {
-   char str[] = "Hello, world!";
-   char *ptr;
-
-   ptr = ft_strrchr(str, 'o');
-
-    printf("Last occurrence of 'o' found at position: %ld\n", ptr - str);
-
-   return 0;
+	if (n > 9)
+		ft_putnbr_fd(n / 10, fd);
+	ft_putchar_fd(n % 10 + '0' + add, fd);
 }
