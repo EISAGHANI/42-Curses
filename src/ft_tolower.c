@@ -6,13 +6,13 @@
 /*   By: moeisa <moeisa@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 12:39:04 by moeisa            #+#    #+#             */
-/*   Updated: 2023/04/14 00:59:03 by moeisa           ###   ########.fr       */
+/*   Updated: 2023/04/16 23:11:26 by moeisa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_tolower(int c)
+int	ft_tolower(int c)
 {
 	if ((c > 64 && c < 91))
 	{

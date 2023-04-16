@@ -6,13 +6,13 @@
 /*   By: moeisa <moeisa@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 12:38:36 by moeisa            #+#    #+#             */
-/*   Updated: 2023/04/14 00:56:31 by moeisa           ###   ########.fr       */
+/*   Updated: 2023/04/16 23:04:11 by moeisa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcpy(char *dest,const char *src, size_t size)
+size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {
 	size_t	length;
 	size_t	i;

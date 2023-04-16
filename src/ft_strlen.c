@@ -1,4 +1,3 @@
-
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
@@ -7,20 +6,23 @@
 /*   By: moeisa <moeisa@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/16 16:24:35 by moeisa            #+#    #+#             */
-/*   Updated: 2023/03/16 16:24:36 by moeisa           ###   ########.fr       */
+/*   Updated: 2023/04/16 23:05:54 by moeisa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(const char *s){
-    int len = 0;
+size_t	ft_strlen(const char *s)
+{
+	int	len;
+	int	i;
 
-    int i = 0;
-    while ( s[i] != '\0')
-    {
-        i++;
-        len++;
-    }
-    return (i);
+	len = 0;
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+		len++;
+	}
+	return (i);
 }

@@ -6,7 +6,7 @@
 /*   By: moeisa <moeisa@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 12:38:50 by moeisa            #+#    #+#             */
-/*   Updated: 2023/04/14 00:57:35 by moeisa           ###   ########.fr       */
+/*   Updated: 2023/04/16 23:09:19 by moeisa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
-		size_t	i;
+	size_t	i;
 	size_t	j;
 
 	i = 0;

@@ -6,13 +6,13 @@
 /*   By: moeisa <moeisa@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/17 15:26:40 by moeisa            #+#    #+#             */
-/*   Updated: 2023/04/14 02:23:33 by moeisa           ###   ########.fr       */
+/*   Updated: 2023/04/14 02:39:23 by moeisa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void    ft_bzero(void *s, size_t n)
+void	ft_bzero(void *s, size_t n)
 {
-        ft_memset(s, '\0', n);
+	ft_memset(s, '\0', n);
 }
